@@ -13,6 +13,8 @@ LDFLAGS = -DSQLITE_THREADSAFE=0 -DSQLITE_OMIT_LOAD_EXTENSION
 CFLAGS = -I ../include
 RELEASE= release/
 
+$(shell mkdir -p $(RELEASE))
+
 all:
 
 	$(CC) $(SRC) $(CFLAGS) $(LDFLAGS) $(LIBS) -o $(RELEASE)$(NAME).o 
