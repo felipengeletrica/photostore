@@ -9,6 +9,7 @@ Copyright (c) 2014-2018, Felipe Vargas <felipeng.eletrica@gmail.com>
 /************************** Includes ******************************/
 #include <stdio.h>
 #include <stdio.h>
+#include <stdint.h>
 #include <string.h>
 #include <stdlib.h>
 #include <stddef.h>
