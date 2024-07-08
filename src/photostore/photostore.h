@@ -11,6 +11,7 @@ Copyright (c) 2014-2018, Felipe Vargas <felipeng.eletrica@gmail.com>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdint.h>
 
 #include "../db/sqlite/sqlite3.h"
 
